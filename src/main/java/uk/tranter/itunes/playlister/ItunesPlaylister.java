@@ -5,5 +5,6 @@ package uk.tranter.itunes.playlister;
  */
 public final class ItunesPlaylister {
     public static void main(String[] args) {
+        System.err.println("\nBlah");
     }
 }
