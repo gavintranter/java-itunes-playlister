@@ -34,31 +34,13 @@ jar {
 }
 
 compileTestJava {
-//    sourceCompatibility = 1.8
-//    targetCompatibility = 1.8
     options.compilerArgs += '-parameters'
-}
-
-junitPlatform {
-    // platformVersion '1.0.0-M4'
-    filters {
-        engines {
-            // include 'junit-jupiter', 'junit-vintage'
-            // exclude 'custom-engine'
-        }
-        tags {
-            // include 'fast'
-//            exclude 'slow'
-        }
-        // includeClassNamePattern '.*Test'
-    }
-    // enableStandardTestTask true
-    // reportsDir file('build/test-results/junit-platform') // this is the default
 }
 
 dependencies {
     testCompile("org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}")
     testRuntime("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
+    testCompile 'org.assertj:assertj-core:3.6.2'
 }
 
 task wrapper(type: Wrapper) {
