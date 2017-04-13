@@ -8,6 +8,8 @@ import java.util.List;
  */
 public class PlaylistParser {
     public Playlist parse(List<String> lines) {
-        return new Playlist(Arrays.asList(new Track("1000", "Artist 1", "Song 1")));
+        Track track1 = new Track("1000", "Artist 1", "Song 1");
+        Track track2 = new Track("2000", "Artist 2", "Song 2");
+        return new Playlist(Arrays.asList(track2, track1));
     }
 }

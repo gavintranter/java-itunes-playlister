@@ -1,11 +1,12 @@
 package uk.tranter.itunes.playlister;
 
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 class ItunesPlaylisterTest {
 
@@ -31,6 +32,23 @@ class ItunesPlaylisterTest {
 
         Playlist playlist = playlistParser.parse(lines);
 
-        Assertions.assertThat(playlist.getTracks()).contains(new Track("1000", "Artist 1", "Song 1"));
+        assertThat(playlist.getTracks()).contains(new Track("1000", "Artist 1", "Song 1"));
+    }
+
+    @Test
+    void shouldMaintainOrderWhenMultipleTracks() {
+        List<String> lines = new ArrayList<>();
+        lines.addAll(track1);
+        lines.addAll(track2);
+        lines.add("<key>Track ID</key><integer>2000</integer>");
+        lines.add("<key>Track ID</key><integer>1000</integer>");
+
+        PlaylistParser playlistParser = new PlaylistParser();
+
+        Playlist playlist = playlistParser.parse(lines);
+
+        Track track1 = new Track("1000", "Artist 1", "Song 1");
+        Track track2 = new Track("2000", "Artist 2", "Song 2");
+        assertThat(playlist.getTracks()).containsExactly(track2, track1);
     }
 }

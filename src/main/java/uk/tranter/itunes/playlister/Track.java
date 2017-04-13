@@ -7,6 +7,8 @@ import java.util.Objects;
  */
 public class Track {
 
+    private static final String TRACK_FORMAT = "%s - %s";
+
     private final String id;
     private final String artist;
     private final String title;
@@ -30,5 +32,10 @@ public class Track {
     @Override
     public int hashCode() {
         return Objects.hash(id, artist, title);
+    }
+
+    @Override
+    public String toString() {
+        return String.format(TRACK_FORMAT, artist, title);
     }
 }
