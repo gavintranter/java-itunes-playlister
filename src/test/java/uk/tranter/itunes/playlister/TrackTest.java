@@ -14,7 +14,7 @@ final class TrackTest {
     }
 
     @Test
-    void shouldEqualsShouldConformToEqualsContract() {
+    void shouldConformToEqualsContract() {
         forClass(Track.class).verify();
     }
 }
