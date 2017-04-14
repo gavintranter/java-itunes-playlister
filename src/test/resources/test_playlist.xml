@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Major Version</key><integer>1</integer>
+        <key>Minor Version</key><integer>1</integer>
+        <key>Date</key><date>2017-01-01T00:00:00Z</date>
+        <key>Application Version</key><string>1.1.1.1</string>
+        <key>Features</key><integer>1</integer>
+        <key>Show Content Ratings</key><true/>
+        <key>Music Folder</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/</string>
+        <key>Library Persistent ID</key><string>1234567890123456</string>
+        <key>Tracks</key>
+        <dict>
+            <key>1010</key>
+            <dict>
+                <key>Track ID</key><integer>1010</integer>
+                <key>Name</key><string>Track 10</string>
+                <key>Artist</key><string>Artist 10</string>
+                <key>Album Artist</key><string>Artist 10</string>
+                <key>Composer</key><string>Artist 10</string>
+                <key>Album</key><string>Artist 10</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Track Type</key><string>File</string>
+                <key>File Type</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1006</key>
+            <dict>
+                <key>Track ID</key><integer>1006</integer>
+                <key>Name</key><string>Track 06</string>
+                <key>Artist</key><string>Artist 06</string>
+                <key>Album Artist</key><string>Artist 06</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Track Type</key><string>File</string>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1003</key>
+            <dict>
+                <key>Track ID</key><integer>1003</integer>
+                <key>Name</key><string>Track 03</string>
+                <key>Artist</key><string>Artist 03</string>
+                <key>Album Artist</key><string>Artist 03</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Track Type</key><string>File</string>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1019</key>
+            <dict>
+                <key>Track ID</key><integer>1019</integer>
+                <key>Name</key><string>Track 19</string>
+                <key>Artist</key><string>Artist 19</string>
+                <key>Album Artist</key><string>Artist 19</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Track Type</key><string>File</string>
+                <key>File Type</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1007</key>
+            <dict>
+                <key>Track ID</key><integer>1007</integer>
+                <key>Name</key><string>Track 07</string>
+                <key>Artist</key><string>Artist 07</string>
+                <key>Album Artist</key><string>Artist 07</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Track Type</key><string>File</string>
+                <key>File Type</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1004</key>
+            <dict>
+                <key>Track ID</key><integer>1004</integer>
+                <key>Name</key><string>Track 04</string>
+                <key>Artist</key><string>Artist 04</string>
+                <key>Album Artist</key><string>Artist 04</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Compilation</key><true/>
+                <key>Persistent ID</key><string>1EEB0145FB6D8150</string>
+                <key>Track Type</key><string>File</string>
+                <key>File Type</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1013</key>
+            <dict>
+                <key>Track ID</key><integer>1013</integer>
+                <key>Name</key><string>Track 13</string>
+                <key>Artist</key><string>Artist 13</string>
+                <key>Album Artist</key><string>Artist 13</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1008</key>
+            <dict>
+                <key>Track ID</key><integer>1008</integer>
+                <key>Name</key><string>Track 08</string>
+                <key>Artist</key><string>Artist 08</string>
+                <key>Album Artist</key><string>Artist 08</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Track Type</key><string>File</string>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1016</key>
+            <dict>
+                <key>Track ID</key><integer>1016</integer>
+                <key>Name</key><string>Track 16</string>
+                <key>Artist</key><string>Artist 16</string>
+                <key>Album Artist</key><string>Artist 16</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Track Type</key><string>File</string>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1012</key>
+            <dict>
+                <key>Track ID</key><integer>1012</integer>
+                <key>Name</key><string>Track 12</string>
+                <key>Artist</key><string>Artist 12</string>
+                <key>Album Artist</key><string>Artist 12</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Sort Album Artist</key><string>Adele</string>
+                <key>Sort Artist</key><string>Adele</string>
+                <key>Persistent ID</key><string>2F80BA77A497785F</string>
+                <key>Track Type</key><string>File</string>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1018</key>
+            <dict>
+                <key>Track ID</key><integer>1018</integer>
+                <key>Name</key><string>Track 18</string>
+                <key>Artist</key><string>Artist 18</string>
+                <key>Album Artist</key><string>Artist 18</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Compilation</key><true/>
+                <key>Track Type</key><string>File</string>
+                <key>File Type</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1002</key>
+            <dict>
+                <key>Track ID</key><integer>1002</integer>
+                <key>Name</key><string>Track 02 (éôñ 宇多田ヒカル)</string>
+                <key>Artist</key><string>Artist 02 (éôñ 宇多田ヒカル)</string>
+                <key>Album Artist</key><string>Artist 02 (éôñ 宇多田ヒカル)</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Track Type</key><string>File</string>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1009</key>
+            <dict>
+                <key>Track ID</key><integer>1009</integer>
+                <key>Name</key><string>Track 09</string>
+                <key>Artist</key><string>Artist 09</string>
+                <key>Album Artist</key><string>Artist 09</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1005</key>
+            <dict>
+                <key>Track ID</key><integer>1005</integer>
+                <key>Name</key><string>Track 05 [-,.?!&#38;*']</string>
+                <key>Artist</key><string>Artist 05 [-,.?!&#38;*']</string>
+                <key>Album Artist</key><string>Artist 05 [-,.?!&#38;*']</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1017</key>
+            <dict>
+                <key>Track ID</key><integer>1017</integer>
+                <key>Name</key><string>Track 17</string>
+                <key>Artist</key><string>Artist 17</string>
+                <key>Album Artist</key><string>Artist 17</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1015</key>
+            <dict>
+                <key>Track ID</key><integer>1015</integer>
+                <key>Name</key><string>Track 15</string>
+                <key>Artist</key><string>Artist 15</string>
+                <key>Album Artist</key><string>Artist 15</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1014</key>
+            <dict>
+                <key>Track ID</key><integer>1014</integer>
+                <key>Name</key><string>Track 14</string>
+                <key>Artist</key><string>Artist 14</string>
+                <key>Album Artist</key><string>Artist 14</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1011</key>
+            <dict>
+                <key>Track ID</key><integer>1011</integer>
+                <key>Name</key><string>Track 11</string>
+                <key>Artist</key><string>Artist 11</string>
+                <key>Album Artist</key><string>Artist 11</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Disc Number</key><integer>1</integer>
+                <key>Disc Count</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Year</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Release Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Rating</key><integer>1</integer>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>Artwork Count</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+            <key>1001</key>
+            <dict>
+                <key>Track ID</key><integer>1001</integer>
+                <key>Name</key><string>Track 01</string>
+                <key>Artist</key><string>Artist 01</string>
+                <key>Album Artist</key><string>Artist 01</string>
+                <key>Size</key><integer>1</integer>
+                <key>Total Time</key><integer>1</integer>
+                <key>Track Number</key><integer>1</integer>
+                <key>Track Count</key><integer>1</integer>
+                <key>Date Modified</key><date>2017-01-01T00:00:00Z</date>
+                <key>Date Added</key><date>2017-01-01T00:00:00Z</date>
+                <key>Bit Rate</key><integer>1</integer>
+                <key>Sample Rate</key><integer>1</integer>
+                <key>Play Count</key><integer>1</integer>
+                <key>Play Date</key><integer>1</integer>
+                <key>Play Date UTC</key><date>2017-01-01T00:00:00Z</date>
+                <key>Skip Count</key><integer>1</integer>
+                <key>Skip Date</key><date>2017-01-01T00:00:00Z</date>
+                <key>Album Rating</key><integer>1</integer>
+                <key>Album Rating Computed</key><true/>
+                <key>Normalization</key><integer>1</integer>
+                <key>File Type</key><integer>1</integer>
+                <key>Location</key><string>file:///Users/Gavin/Music/iTunes/iTunes%20Music/Music/</string>
+                <key>File Folder Count</key><integer>1</integer>
+                <key>Library Folder Count</key><integer>1</integer>
+            </dict>
+        </dict>
+        <key>Playlists</key>
+        <array>
+            <dict>
+                <key>Name</key><string>Playlist 01</string>
+                <key>Description</key><string></string>
+                <key>Playlist ID</key><integer>1</integer>
+                <key>All Items</key><true/>
+                <key>Playlist Items</key>
+                <array>
+                    <dict>
+                        <key>Track ID</key><integer>1001</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1002</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1003</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1004</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1005</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1006</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1007</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1008</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1009</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1010</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1011</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1012</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1013</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1014</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1015</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1016</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1017</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1018</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>1019</integer>
+                    </dict>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>

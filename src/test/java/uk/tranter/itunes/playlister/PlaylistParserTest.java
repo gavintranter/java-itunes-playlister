@@ -2,6 +2,10 @@ package uk.tranter.itunes.playlister;
 
 import org.junit.jupiter.api.Test;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,13 +17,13 @@ final class PlaylistParserTest {
     private final static List<String> track1 = Arrays.asList(
             "<key>1000</key>",
             "<key>Track ID</key><integer>1000</integer>",
-            "<key>Name</key><string>Song 1</string>",
+            "<key>Name</key><string>Track 1</string>",
             "<key>Artist</key><string>Artist 1</string>");
 
     private final static List<String> track2 = Arrays.asList(
             "<key>1000</key>",
             "<key>Track ID</key><integer>2000</integer>",
-            "<key>Name</key><string>Song 2</string>",
+            "<key>Name</key><string>Track 2</string>",
             "<key>Artist</key><string>Artist 2</string>");
 
     private PlaylistParser playlistParser = new PlaylistParser();
@@ -32,7 +36,7 @@ final class PlaylistParserTest {
 
         Playlist playlist = playlistParser.parse(lines);
 
-        assertThat(playlist.getTracks()).containsExactly(new Track("1000", "Artist 1", "Song 1"));
+        assertThat(playlist.getTracks()).containsExactly(new Track("1000", "Artist 1", "Track 1"));
     }
 
     @Test
@@ -45,8 +49,8 @@ final class PlaylistParserTest {
 
         Playlist playlist = playlistParser.parse(lines);
 
-        Track track1 = new Track("1000", "Artist 1", "Song 1");
-        Track track2 = new Track("2000", "Artist 2", "Song 2");
+        Track track1 = new Track("1000", "Artist 1", "Track 1");
+        Track track2 = new Track("2000", "Artist 2", "Track 2");
         assertThat(playlist.getTracks()).containsExactly(track2, track1);
     }
 
@@ -66,27 +70,40 @@ final class PlaylistParserTest {
     void shouldHandleAmpersandInTrackTitle() {
         List<String> lines = Arrays.asList("<key>1000</key>",
                 "<key>Track ID</key><integer>1000</integer>",
-                "<key>Name</key><string>Song 1 &#38;</string>",
+                "<key>Name</key><string>Track 1 &#38;</string>",
                 "<key>Artist</key><string>Artist 1</string>",
                 "<key>Name</key><string>Playlist 01</string>",
                 "<key>Track ID</key><integer>1000</integer>");
 
         Playlist playlist = playlistParser.parse(lines);
 
-        assertThat(playlist.getTracks()).containsExactly(new Track("1000", "Artist 1", "Song 1 &"));
+        assertThat(playlist.getTracks()).containsExactly(new Track("1000", "Artist 1", "Track 1 &"));
     }
 
     @Test
     void shouldHandleAmpersandInTrackArtist() {
         List<String> lines = Arrays.asList("<key>1000</key>",
                 "<key>Track ID</key><integer>1000</integer>",
-                "<key>Name</key><string>Song 1</string>",
+                "<key>Name</key><string>Track 1</string>",
                 "<key>Artist</key><string>Artist 1 &#38;</string>",
                 "<key>Name</key><string>Playlist 01</string>",
                 "<key>Track ID</key><integer>1000</integer>");
 
         Playlist playlist = playlistParser.parse(lines);
 
-        assertThat(playlist.getTracks()).containsExactly(new Track("1000", "Artist 1 &", "Song 1"));
+        assertThat(playlist.getTracks()).containsExactly(new Track("1000", "Artist 1 &", "Track 1"));
+    }
+
+    @Test
+    void shouldHandleITunesPlaylistFile() throws IOException {
+        Path path = Paths.get("src/test/resources/test_playlist.xml");
+
+        Playlist playlist = playlistParser.parse(Files.readAllLines(path));
+
+        assertThat(playlist.getTracks()).hasSize(19).containsSubsequence(
+                new Track("1008", "Artist 08", "Track 08"),
+                new Track("1009", "Artist 09", "Track 09"),
+                new Track("1010", "Artist 10", "Track 10")
+        );
     }
 }

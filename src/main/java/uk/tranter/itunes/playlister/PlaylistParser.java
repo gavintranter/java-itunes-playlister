@@ -13,17 +13,20 @@ public final class PlaylistParser {
     public Playlist parse(List<String> lines) {
 
         List<String> ids = lines.stream()
+                .map(String::trim)
                 .filter(e -> e.startsWith("<key>Track ID"))
                 .map(e -> e.substring(e.indexOf("<integer>") + 9, e.lastIndexOf("</integer")))
                 .collect(toList());
 
         List<String> titles = lines.stream()
+                .map(String::trim)
                 .filter(e -> e.startsWith("<key>Name"))
                 .map(e -> e.substring(e.indexOf("<string>") + 8, e.lastIndexOf("</string")))
                 .map(e -> e.replace("&#38;", "&"))
                 .collect(toList());
 
         List<String> artists = lines.stream()
+                .map(String::trim)
                 .filter(e -> e.startsWith("<key>Artist"))
                 .map(e -> e.substring(e.indexOf("<string>") + 8, e.lastIndexOf("</string")))
                 .map(e -> e.replace("&#38;", "&"))
