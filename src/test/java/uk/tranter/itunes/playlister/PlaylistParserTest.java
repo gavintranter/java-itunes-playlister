@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-final class ItunesPlaylisterTest {
+final class PlaylistParserTest {
 
     private final static List<String> track1 = Arrays.asList(
             "<key>1000</key>",
@@ -22,17 +22,17 @@ final class ItunesPlaylisterTest {
             "<key>Name</key><string>Song 2</string>",
             "<key>Artist</key><string>Artist 2</string>");
 
+    private PlaylistParser playlistParser = new PlaylistParser();
+
     @Test
     void shouldParseSingleTrackPlaylistXmlIntoPlaylist() {
         List<String> lines = new ArrayList<>();
         lines.addAll(track1);
         lines.add("<key>Track ID</key><integer>1000</integer>");
 
-        PlaylistParser playlistParser = new PlaylistParser();
-
         Playlist playlist = playlistParser.parse(lines);
 
-        assertThat(playlist.getTracks()).contains(new Track("1000", "Artist 1", "Song 1"));
+        assertThat(playlist.getTracks()).containsExactly(new Track("1000", "Artist 1", "Song 1"));
     }
 
     @Test
@@ -42,8 +42,6 @@ final class ItunesPlaylisterTest {
         lines.addAll(track2);
         lines.add("<key>Track ID</key><integer>2000</integer>");
         lines.add("<key>Track ID</key><integer>1000</integer>");
-
-        PlaylistParser playlistParser = new PlaylistParser();
 
         Playlist playlist = playlistParser.parse(lines);
 
