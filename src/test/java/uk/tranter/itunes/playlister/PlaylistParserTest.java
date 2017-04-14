@@ -49,4 +49,16 @@ final class PlaylistParserTest {
         Track track2 = new Track("2000", "Artist 2", "Song 2");
         assertThat(playlist.getTracks()).containsExactly(track2, track1);
     }
+
+    @Test
+    void shouldNamePlaylistUsingPlaylistNameFromPlaylistXml() {
+        List<String> lines = new ArrayList<>();
+        lines.addAll(track1);
+        lines.add("<key>Name</key><string>Playlist 01</string>");
+        lines.add("<key>Track ID</key><integer>1000</integer>");
+
+        Playlist playlist = playlistParser.parse(lines);
+
+        assertThat(playlist.getName()).isEqualTo("Playlist 01");
+    }
 }

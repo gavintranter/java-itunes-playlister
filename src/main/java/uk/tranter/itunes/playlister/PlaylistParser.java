@@ -35,6 +35,6 @@ public final class PlaylistParser {
         final List<String> orderedIds = ids.stream().skip(artists.size()).collect(toList());
         tracks.sort(Comparator.comparing(e -> orderedIds.indexOf(e.getId())));
 
-        return new Playlist(tracks);
+        return new Playlist(titles.get(titles.size() - 1), tracks);
     }
 }

@@ -8,12 +8,19 @@ import java.util.List;
 public final class Playlist {
 
     private final List<Track> tracks;
+    private final String name;
 
-    public Playlist(List<Track> tracks) {
+    public Playlist(String name, List<Track> tracks) {
         this.tracks = tracks;
+        this.name = name;
     }
 
     public List<Track> getTracks() {
         return tracks;
+    }
+
+
+    public String getName() {
+        return name;
     }
 }
