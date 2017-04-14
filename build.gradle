@@ -40,6 +40,9 @@ compileTestJava {
 dependencies {
     testCompile("org.junit.jupiter:junit-jupiter-api:${junitJupiterVersion}")
     testRuntime("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
+    testRuntime("org.junit.platform:junit-platform-launcher:${junitPlatformVersion}")
+    testRuntime("org.junit.platform:junit-platform-runner:${junitPlatformVersion}")
+
     testCompile 'org.assertj:assertj-core:3.6.2'
     testCompile 'nl.jqno.equalsverifier:equalsverifier:2.2.2'
 }
