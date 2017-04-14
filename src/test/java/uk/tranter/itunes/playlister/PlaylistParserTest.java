@@ -61,4 +61,32 @@ final class PlaylistParserTest {
 
         assertThat(playlist.getName()).isEqualTo("Playlist 01");
     }
+
+    @Test
+    void shouldHandleAmpersandInTrackTitle() {
+        List<String> lines = Arrays.asList("<key>1000</key>",
+                "<key>Track ID</key><integer>1000</integer>",
+                "<key>Name</key><string>Song 1 &#38;</string>",
+                "<key>Artist</key><string>Artist 1</string>",
+                "<key>Name</key><string>Playlist 01</string>",
+                "<key>Track ID</key><integer>1000</integer>");
+
+        Playlist playlist = playlistParser.parse(lines);
+
+        assertThat(playlist.getTracks()).containsExactly(new Track("1000", "Artist 1", "Song 1 &"));
+    }
+
+    @Test
+    void shouldHandleAmpersandInTrackArtist() {
+        List<String> lines = Arrays.asList("<key>1000</key>",
+                "<key>Track ID</key><integer>1000</integer>",
+                "<key>Name</key><string>Song 1</string>",
+                "<key>Artist</key><string>Artist 1 &#38;</string>",
+                "<key>Name</key><string>Playlist 01</string>",
+                "<key>Track ID</key><integer>1000</integer>");
+
+        Playlist playlist = playlistParser.parse(lines);
+
+        assertThat(playlist.getTracks()).containsExactly(new Track("1000", "Artist 1 &", "Song 1"));
+    }
 }

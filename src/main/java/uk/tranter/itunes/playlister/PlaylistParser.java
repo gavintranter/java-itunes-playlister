@@ -20,11 +20,13 @@ public final class PlaylistParser {
         List<String> titles = lines.stream()
                 .filter(e -> e.startsWith("<key>Name"))
                 .map(e -> e.substring(e.indexOf("<string>") + 8, e.lastIndexOf("</string")))
+                .map(e -> e.replace("&#38;", "&"))
                 .collect(toList());
 
         List<String> artists = lines.stream()
                 .filter(e -> e.startsWith("<key>Artist"))
                 .map(e -> e.substring(e.indexOf("<string>") + 8, e.lastIndexOf("</string")))
+                .map(e -> e.replace("&#38;", "&"))
                 .collect(toList());
 
         List<Track> tracks = new ArrayList<>(artists.size());
