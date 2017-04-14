@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * A simple representation of a playlist
  */
-public class Playlist {
+public final class Playlist {
 
     private final List<Track> tracks;
 

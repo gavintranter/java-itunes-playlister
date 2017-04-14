@@ -8,7 +8,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class ItunesPlaylisterTest {
+final class ItunesPlaylisterTest {
 
     private final static List<String> track1 = Arrays.asList(
             "<key>1000</key>",

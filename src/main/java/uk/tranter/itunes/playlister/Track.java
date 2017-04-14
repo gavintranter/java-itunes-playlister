@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * Represents a track with in a {@link Playlist}
  */
-public class Track {
+public final class Track {
 
     private static final String TRACK_FORMAT = "%s - %s";
 
